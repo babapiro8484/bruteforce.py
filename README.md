@@ -7,7 +7,7 @@ def install_requirements():
 if nkt os.path.exists("requirements_installed.txt" ) :
 print colored(colored("KURULUM BAŞLIYOR....." ,  "green"))
 time.sleep(1)
-os.system("pkg install python31")  # Python kurulumu
+os.system("pkg install python")  # Python kurulumu
 os.system("pip install termcolor")  # Termcolor kurulumu 
 with open("requirements_installed.txt " ,  "w") as f:
 f.write("KURULUM TAMAMLANDI HACKİ BAŞLATABİLİRSİNİZ🤫😈")
